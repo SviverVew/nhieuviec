@@ -1,0 +1,31 @@
+.company-name {
+  font-size: 16px;
+  color: #3c3c3c;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.btn-unsave {
+  position: absolute;
+  top: 40px;
+  right: 16px;
+}
+
+@media (max-width: 576px) {
+  .job-card {
+    padding-right: 16px; /* Remove the padding on smaller screens */
+  }
+
+  .job-title {
+    font-size: 14px; /* Adjust font size for mobile */
+  }
+
+  .company-name {
+    font-size: 14px;
+  }
+}

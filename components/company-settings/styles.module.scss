@@ -1,0 +1,77 @@
+.company-image {
+  position: relative;
+  width: 100%;
+}
+
+.cover {
+  width: 100%;
+  min-height: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.3s, filter 0.3s, background-color 0.3s;
+}
+
+.cover:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.414);
+}
+
+.avatar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+  background-color: #fff;
+}
+
+.avatar:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.414);
+}
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 10px;
+  z-index: 1200;
+}
+
+.form-info {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.company-info {
+  width: 100%;
+}
+
+.company-input-box {
+  min-height: 50px;
+  width: 100%;
+}
+
+.company-input-number {
+  width: 50%;
+  min-height: 50px;
+}
+
+.company-input-quill {
+  margin-top: 10px;
+  width: 100%;
+}
+.cover-container {
+  width: 100%;
+}
+.image-container {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+@media screen and (max-width: 576px) {
+  .company-setting {
+    padding: 20px 20px 80px 20px !important;
+  }
+}
+.company-setting {
+  padding: 20px 0px;
+}
